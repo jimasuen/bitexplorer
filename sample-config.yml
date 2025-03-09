@@ -1,0 +1,4 @@
+# Info for your bitcoin core directory. edit with yours
+
+datadir: "/Users/<your folder>/Library/Application Support/Bitcoin/<regtest or signet>"
+network: "<your network>" # if it's regtest, type regtest. if signet, type signet

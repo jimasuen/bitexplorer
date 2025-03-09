@@ -3,10 +3,10 @@ import os
 from yaml import safe_load
 
 class Config:
-    def __init__(self, conf: str = None, datadir: str = None, network: str = None):
+    def __init__(self, conf: str = None):
         self._conf = conf
-        self._datadir = datadir
-        self._network = network
+        self._datadir = None
+        self._network = None
 
         try:
             if conf:
